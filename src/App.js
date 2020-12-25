@@ -9,10 +9,12 @@ import UseTabsComp from './3.Nooks/N1-3';
 
 // #2 Use Effect
 import UseEffection from './3.Nooks/N2-0';
+import UseTitleComp from './3.Nooks/N2-1';
+
 
 function App() {
   return (
-    <UseEffection/>
+    <UseTitleComp/>
     );
 }
 
