@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
-// hook과 class component의 차이점을 알아보자
+// useInput 훅을 만들어보자
 
 const useInput = (initialValue, validator) => 
 {
