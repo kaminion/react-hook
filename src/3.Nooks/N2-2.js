@@ -4,7 +4,7 @@ import React, {useState, useEffect, useRef} from 'react';
 const useClick = (onClick)=> {
     const element = useRef();
     useEffect(()=>{
-        //component didupdate, did mount 마운드 될 때 한번만 실행할 것
+        //component didupdate, did mount 
         if(element.current){
             element.current.addEventListener('click', onClick);
         }
@@ -14,8 +14,8 @@ const useClick = (onClick)=> {
                 element.current.removeEventListener('click', onClick);
             }
         }
-    }, []);
-    
+    }, []); // 마운드 될 때 한번만 실행할 것
+
     if(typeof onClick !== "function") return ;
     
     return element;
@@ -30,8 +30,6 @@ const UseClickComp = ()=>
     
     const sayHello = ()=>console.log('say Hello')
     const title = useClick(sayHello)
-
-
 
     return (
         <div>
