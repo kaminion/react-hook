@@ -12,11 +12,11 @@ import UseEffection from './3.Nooks/N2-0';
 import UseTitleComp from './3.Nooks/N2-1';
 import UseClickComp from './3.Nooks/N2-2';
 import UseConfirmComp from './3.Nooks/N2-3';
-
+import UsePageLeaveComp from './3.Nooks/N2-4';
 
 function App() {
   return (
-    <UseConfirmComp/>
+    <UsePageLeaveComp/>
     );
 }
 
