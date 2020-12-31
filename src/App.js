@@ -11,11 +11,12 @@ import UseTabsComp from './3.Nooks/N1-3';
 import UseEffection from './3.Nooks/N2-0';
 import UseTitleComp from './3.Nooks/N2-1';
 import UseClickComp from './3.Nooks/N2-2';
+import UseConfirmComp from './3.Nooks/N2-3';
 
 
 function App() {
   return (
-    <UseClickComp/>
+    <UseConfirmComp/>
     );
 }
 
