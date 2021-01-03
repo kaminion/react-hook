@@ -40,4 +40,27 @@ useState(초기값)
 
 # Nooks 
 # N1은 useState에 대한 내용 
+
+- N1-1은 class Component로 상태관리를 나타내는 것을 의미한다.
+
+- N1-2는 state로 useInput 컴포넌트를 만들고 함수형 프로그래밍을 이용한 것이다.
+
+- N1-3은 클릭이벤트로 어떤 내용을 선택하였는지 나타내는 이벤트를 나타내는 것이다.
+
 # N2는 useEffect에 대한 내용
+
+- N2-0은 useEffect의 LifeCycle에 대한 내용이다. (class -> functional)
+
+- N2-1은 useEffect의 dependency 별 호출 상태를 나타내는 것이다.
+
+- N2-2는 useEffect의 unMount와 useRef 그리고 함수형 프로그래밍을 설명한다.
+
+- N2-3은 윈도우 이벤트 후 객체로 반환하였을 때를 설명한다.
+
+- N2-4는 앱 벗어날 때 실행하는 함수형 프로그래밍을 실현
+
+- N2-5는 useRef를 이용하여 스타일 변경과 네트워크 이벤트를 제어하는 것
+
+- N2-6은 스크롤 이벤트와 웹 브라우저 별 스크린 이벤트를 제어하는 것
+
+- N2-7은 웹 Notification 이벤트를 함수형 프로그래밍으로 제어하는 것이다.
