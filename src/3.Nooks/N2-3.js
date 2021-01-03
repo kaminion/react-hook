@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {useConfirm} from './useConfirm/useConfirm';
+import {useConfirm} from './useComp/useConfirm';
 
 //usePreventLeave
 const usePreventLeave = (onLeaving) =>

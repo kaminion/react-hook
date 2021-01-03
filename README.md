@@ -64,3 +64,15 @@ useState(초기값)
 - N2-6은 스크롤 이벤트와 웹 브라우저 별 스크린 이벤트를 제어하는 것
 
 - N2-7은 웹 Notification 이벤트를 함수형 프로그래밍으로 제어하는 것이다.
+
+- N2-8은 Axios를 이용한 hook이다.
+(blocked by Cors에러 시 대응)
+
+blocked by CORS policy 에러가 뜨는 분은 url 앞에 proxy url로 "https://cors-anywhere.herokuapp.com/"를 붙이시면 되네요. 쉽게 예를 들면
+
+~~~js
+const { loading, data, error, refetch } = useAxios({
+url:
+"https://cors-anywhere.herokuapp.com/https://yts.am/api/v2/list_movies.json"
+});
+~~~

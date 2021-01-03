@@ -16,10 +16,11 @@ import UsePageLeaveComp from './3.Nooks/N2-4';
 import UseFadeInComp from './3.Nooks/N2-5';
 import UseScrollComp from './3.Nooks/N2-6';
 import UseNotiComp from './3.Nooks/N2-7';
+import UseAxios from './3.Nooks/N2-8';
 
 function App() {
   return (
-    <UseNotiComp/>
+    <UseAxios/>
     );
 }
 

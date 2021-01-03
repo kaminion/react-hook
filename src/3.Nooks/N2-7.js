@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 // 훅이 아니어도 사용가능
 // 함수형 프로그래밍
