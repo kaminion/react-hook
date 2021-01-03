@@ -1,0 +1,23 @@
+{
+  "name": "@nooks/use-axios",
+  "version": "1.0.0",
+  "description": "useAxios를 편하게 사용하기 위한 Hooks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaminion/react-hook.git"
+  },
+  "keywords": [
+    "react-hook"
+  ],
+  "author": "declan andrew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaminion/react-hook/issues"
+  },
+  "homepage": "https://github.com/kaminion/react-hook#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
