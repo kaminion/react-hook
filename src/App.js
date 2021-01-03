@@ -15,10 +15,11 @@ import UseConfirmComp from './3.Nooks/N2-3';
 import UsePageLeaveComp from './3.Nooks/N2-4';
 import UseFadeInComp from './3.Nooks/N2-5';
 import UseScrollComp from './3.Nooks/N2-6';
+import UseNotiComp from './3.Nooks/N2-7';
 
 function App() {
   return (
-    <UseScrollComp/>
+    <UseNotiComp/>
     );
 }
 
